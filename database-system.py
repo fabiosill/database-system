@@ -14,9 +14,6 @@ def options():
     ))
 
 # === CREATE ===
-def optioninsert():
-    return int(input("This is a create section, then what values do you would like to insert"
-        "\n VALUES: 1.NAME | 2.AGE | 3.CELL | 4.EMAIL | 0.RETURN\n"))
 
 def sqlcreate():
     dtname = input("Name: \n")
